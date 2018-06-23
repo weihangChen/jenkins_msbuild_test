@@ -22,6 +22,7 @@ namespace WpfApp1
     {
         public MainWindow()
         {
+            ClassLibrary1.Class1 tmp = new ClassLibrary1.Class1();
             InitializeComponent();
         }
     }
