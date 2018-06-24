@@ -9,6 +9,7 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
+
             ClassLibrary1.Class1 tmp = new ClassLibrary1.Class1();
             Assert.IsTrue(1 == 1);
         }
